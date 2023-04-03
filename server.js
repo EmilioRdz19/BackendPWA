@@ -15,6 +15,7 @@ mongoose.connect(DB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(db => console.log("Conexión a BD correcta"))
     .catch(error => console.log("Error al conectarse a la BD" + error));
 
+    
 
 // MIDDLEWARE
 app.use(cors());            // Soporte para CORS
